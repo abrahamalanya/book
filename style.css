@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    text-align: center;
+}
+main{
+    width: 80%;
+    margin: auto;
+}
+section{
+    padding: 0 0.9375em;
+    text-align: center;
+}
+.container-storie{
+    font-size: 2em;
+    background-color: #1A1A2E;
+    color: #fff;
+    border-radius: 0.9375em;
+    padding: 0.9375em;
+    text-align: center;
+}
+button{
+    border: none;
+    font-size: 1.25em;
+    padding: 0.625em;
+    margin: 0.625em 0;
+    cursor: pointer;
+    border-radius: 0.625em;
+}
+.btn-primary{
+    background-color: #E94560;
+    color: #fff;
+}
