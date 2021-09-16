@@ -12,11 +12,15 @@
         <h1 id="header_title">{{ title }}</h1>
     </header>
     <main>
-        <section id='data_book'>
-            <div class="container-storie"  v-for="storie in stories">
-                <span>{{ storie.content }}</span>
+        <section id='data_book' class="container">
+            <div class="container-storie"  v-for="storie in stories" v-bind:style="`background-image: url(${storie.image})`">
+                <div class="container-storie-title">
+                    <span>{{ storie.title }}</span>
+                </div>
+                <div class="container-storie-content">
+                    <span>{{ storie.content }}</span>
+                </div>
             </div>
-            <button class="btn-primary">SIGUIENTE</button>
         </section>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>

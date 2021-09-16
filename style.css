@@ -13,13 +13,44 @@ section{
     padding: 0 0.9375em;
     text-align: center;
 }
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-around;
+    align-content: flex-start;
+}
 .container-storie{
     font-size: 2em;
-    background-color: #1A1A2E;
-    color: #fff;
-    border-radius: 0.9375em;
+    width: 15.625rem;
+    height: 26.875rem;
+    border-radius: 0.3125em;
     padding: 0.9375em;
-    text-align: center;
+    margin-bottom: 0.46em;
+    background-color: #1A1A2E;
+    /* background-color: whitesmoke; */
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: flex-end;
+    align-content: flex-end;
+}
+.container-storie-title{
+    font-size: 1em;
+}
+.container-storie-title span{
+    color: #E94560;
+}
+.container-storie-content{
+    font-size: 0.875em;
+}
+.container-storie-content span{
+    color: #fff;
 }
 button{
     border: none;
