@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1 id="header_title">{{ title }}</h1>
+    </header>
+    <main>
+        <section id='book_data' class="container">
+            <div class="container-storie"  v-for="storie in stories" v-bind:style="`background-image: url(${storie.image})`">
+                <div class="container-storie-title">
+                    <span>{{ storie.title }}</span>
+                </div>
+                <div class="container-storie-content">
+                    <span>{{ storie.content }}</span>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
