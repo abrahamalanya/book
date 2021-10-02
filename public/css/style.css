@@ -100,3 +100,15 @@ button{
 .book_portada span{
     color: #dadada;
 }
+
+/* Linea de tiempo */
+.line{
+    border-radius: 0.625rem;
+    border-left: 0.625rem solid #0F3460;
+}
+.line-container-pin{
+    border-radius: 0.625rem;
+    width: 0.9375rem;
+    height: 0.9375rem;
+    background-color: #E94560;
+}

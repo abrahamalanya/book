@@ -1,3 +1,5 @@
+// Configuracion General
+
 // Book
 var book_portada = new Vue({
     el: '#book_portada',
